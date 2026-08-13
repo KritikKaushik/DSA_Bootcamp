@@ -1,0 +1,3 @@
+Question:--You are given an array “A”; in one step select largest element of array and convert it to second largest element of the array 
+
+-> Tell the minimum number of steps such that all elements become equal */ 
