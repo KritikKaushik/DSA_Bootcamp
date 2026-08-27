@@ -1,12 +1,11 @@
 class Solution {
-public:
-    long long minOperations(vector<int>& nums) {
-        long long ans = 0;
+    public long minOperations(int[] nums) {
+        long ans = 0;
 
-        for (int i = 1; i < nums.size(); i++) {
-            ans += max(0, nums[i - 1] - nums[i]);
+        for (int i = 1; i < nums.length; i++) {
+            ans += Math.max(0, nums[i - 1] - nums[i]);
         }
 
         return ans;
     }
-};
+}
