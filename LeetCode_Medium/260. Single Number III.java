@@ -27,3 +27,5 @@ class Solution {
 //take xor of all elements,
 //now find the bit which is different in both number
 // divide them into 2 groups and answer is the seperate xor of those group.
+
+//also asked in to the new company.
